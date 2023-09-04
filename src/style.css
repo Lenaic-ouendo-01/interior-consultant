@@ -52,14 +52,12 @@
 }
 
 .nav{
-  @apply font-footer font-light text-lg ml:ml-20 ml-0 ;
+  @apply font-footer font-light text-lg ml:ml-20 ml-0;
 }
 
 .nav:hover{
-  @apply underline underline-offset-8
-  transition ease-in-out delay-150 hover:-translate-y-1 
-  hover:scale-110 duration-300;
-  font-size: large;
+  @apply transition ease-in-out delay-150 
+  hover:scale-110 duration-300 text-orange-300;
   font-weight: bold;
   cursor: pointer;
   transition-timing-function: cubic-bezier(0.4, 0, 2, 8);
